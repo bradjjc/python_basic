@@ -15,3 +15,14 @@ print(x % y) # 나머지
 print(x ** y) # 제곱
 
 # - 문자열 연산
+tag1 = "#내꺼하자"
+tag2 = "#오늘부터1일"
+tag3 = "#여친생김"
+
+tag = tag1 + tag2 + tag3
+print(tag)
+
+# 문자열 + 숫자연산자
+message = "우린 모두 파이썬을 사랑합니다.\n" * 5
+print(message)
+
