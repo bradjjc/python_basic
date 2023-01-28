@@ -26,3 +26,17 @@ print(tag)
 message = "우린 모두 파이썬을 사랑합니다.\n" * 5
 print(message)
 
+# 복합할당연산자
+level = 10 # (레벨 1증가)
+level += 1 # level = level + 1
+
+health = 2000 # (체력 300 감소)
+health -= 300 # health = health - 300
+
+attack = 300 # (공격력 1.5배 증가)
+attack *= 1.5 # attack = attack * 1.5
+
+speed = 420 # (이동속도 50% 감소)
+speed /= 2 # speed = speed / 2
+print(level, health, attack, speed)
+
